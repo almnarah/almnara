@@ -1,7 +1,7 @@
 {
   "name": "almanara",
   "version": "0.1.0",
-  "homepage": "https://samehhammad.github.io/almanara-trans/",
+  "homepage": "https://almnarah.github.io/almnara/",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
