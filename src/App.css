@@ -2,7 +2,7 @@
 
 .m-dark {
   box-shadow: rgb(254, 254, 252) 0px 30px 60px -12px,
-    rgb(197, 193, 189) 0px 18px 36px -18px;
+    rgb(197, 183, 189) 0px 18px 36px -18px;
   background: linear-gradient(#424449,rgb(66, 50, 51) );
   color: blanchedalmond;
   transition: all 3s ease;
