@@ -703,7 +703,7 @@ const DisPopup = ({ closePopup }) => {
 
                   <p className="nn" style={{ color: "black" }}>
                     إجمالي الحساب بعد الخصم :{" "}
-                    <span>
+                    <span name="price">
                       {roundN100(
                         totalPrice > 2500
                           ? (totalPrice * 85) / 100
