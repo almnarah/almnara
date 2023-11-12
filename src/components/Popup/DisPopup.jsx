@@ -200,6 +200,9 @@ const DisPopup = ({ closePopup }) => {
                     <p className="dd nn">
                       الإســم : <span>{localorders[0].name}</span>
                     </p>
+                    <p className="nn dd">
+                    الخصم : <span>15%</span>
+                  </p>
                   </div>
                   <div className="doooor">
                     <p className="nn dd">
@@ -220,7 +223,7 @@ const DisPopup = ({ closePopup }) => {
                     </p>
 
                     <p className="nn dd">
-                      إلــي منطقة:{" "}
+                      إلــي منطقة:
                       <span>
                         {localorders[0].toLocation
                           ? localorders[0].toLocation
@@ -244,13 +247,13 @@ const DisPopup = ({ closePopup }) => {
                   </div>
                   <div className="doooor">
                     <p className="nn dd">
-                      عدد الغرف فك وتركيب :{" "}
+                      عدد غرف النجارة :{" "}
                       <span>
                         {localorders[0].dishCov ? localorders[0].dishCov : 0}
                       </span>
                     </p>
                     <p className="nn dd">
-                      عدد التكييفات فك وتركيب :{" "}
+                      عدد التكييفات :
                       <span>
                         {localorders[0].roomsCov ? localorders[0].roomsCov : 0}
                       </span>
@@ -266,9 +269,7 @@ const DisPopup = ({ closePopup }) => {
                       <span>{localorders[0].winshUp ? "نعم" : "لا"}</span>
                     </p>
                   </div>
-                  <p className="nn">
-                    الخصم : <span>15%</span>
-                  </p>
+                  
                   <div className="whatsapp text-right mr-2 mt-3">
                     <ul >
                       <hr style={{width:"70%"}}></hr>
@@ -440,6 +441,7 @@ const DisPopup = ({ closePopup }) => {
                       <DatePicker
                         selected={startDate}
                         onChange={(date) => setStartDate(date)}
+                        showTimeSelect
                         dateFormat="Pp"
                         name="dateTime"
                       />
@@ -708,6 +710,9 @@ const DisPopup = ({ closePopup }) => {
                           <p className="dd nn">
                             الإســم : <span>{name}</span>
                           </p>
+                          <p className="nn dd">
+                          الخصم : <span>15%</span>
+                        </p>
                         </div>
                         <div className="doooor">
                           <p className="nn dd">
@@ -740,11 +745,11 @@ const DisPopup = ({ closePopup }) => {
                         </div>
                         <div className="doooor">
                           <p className="nn dd">
-                            عدد الغرف فك وتركيب :{" "}
+                            عدد غرف النجارة :{" "}
                             <span>{dishCov ? dishCov : 0}</span>
                           </p>
                           <p className="nn dd">
-                            عدد التكييفات فك وتركيب :{" "}
+                            عدد التكييفات :{" "}
                             <span>{roomsCov ? roomsCov : 0}</span>
                           </p>
                         </div>
@@ -758,9 +763,7 @@ const DisPopup = ({ closePopup }) => {
                             <span>{winshUp ? "نعم" : "لا"}</span>
                           </p>
                         </div>
-                        <p className="nn">
-                          الخصم : <span>15%</span>
-                        </p>
+                        
                         <div className="whatsapp text-right mr-2 mt-3">
                           <ul>
                             <hr style={{ width: "70%" }}></hr>
