@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/almnara/static/css/main.faed8ab8.css",
-    "main.js": "/almnara/static/js/main.6f4888a5.js",
+    "main.css": "/almnara/static/css/main.cde4ff3b.css",
+    "main.js": "/almnara/static/js/main.a79c18a4.js",
     "static/js/787.0e728f02.chunk.js": "/almnara/static/js/787.0e728f02.chunk.js",
     "static/media/Sameh Hammad_CV.pdf": "/almnara/static/media/Sameh Hammad_CV.be8e1324a7f0da4705d3.pdf",
     "static/media/manara.png": "/almnara/static/media/manara.1ce86d02554ffea4fd0a.png",
@@ -17,12 +17,12 @@
     "static/media/covering.jpg": "/almnara/static/media/covering.b923c407a84b58e7d7ed.jpg",
     "static/media/intro-car.jpg": "/almnara/static/media/intro-car.f9eecca68a3a30c0d743.jpg",
     "index.html": "/almnara/index.html",
-    "main.faed8ab8.css.map": "/almnara/static/css/main.faed8ab8.css.map",
-    "main.6f4888a5.js.map": "/almnara/static/js/main.6f4888a5.js.map",
+    "main.cde4ff3b.css.map": "/almnara/static/css/main.cde4ff3b.css.map",
+    "main.a79c18a4.js.map": "/almnara/static/js/main.a79c18a4.js.map",
     "787.0e728f02.chunk.js.map": "/almnara/static/js/787.0e728f02.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.faed8ab8.css",
-    "static/js/main.6f4888a5.js"
+    "static/css/main.cde4ff3b.css",
+    "static/js/main.a79c18a4.js"
   ]
 }
