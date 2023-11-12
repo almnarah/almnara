@@ -178,7 +178,7 @@ const DisPopup = ({ closePopup }) => {
             data-aos-anchor-placement="fade-right"
           >
             <div dir="rtl" className="h-screen flex flex-col ">
-              <div dir="rtl" className=" pt-0 " >
+              <div dir="rtl" className=" pt-0 ">
                 <div dir="rtl" className="text-center flex justify-center">
                   <img src={logo} alt="almanara" width={80} />
                   <p
@@ -270,36 +270,36 @@ const DisPopup = ({ closePopup }) => {
                     الخصم : <span>15%</span>
                   </p>
                   <div className="whatsapp">
-                  <ul>
-                    <h1 style={{ color: "#77dd77" }}>
-                      يمكنك التواصل مع المناره علي الواتس اب علي هذه الأرقام
-                    </h1>
-                    <li>
-                      <a
-                        href="https://wa.me/01102226225"
-                        style={{ color: "#77dd77" }}
-                      >
-                        <i
-                          className="fa-brands fa-whatsapp text-4xl mx-1 cursor-pointer  whats-icon text-success"
+                    <ul>
+                      <h1 style={{ color: "#77dd77" }}>
+                        يمكنك التواصل مع المناره علي الواتس اب علي هذه الأرقام
+                      </h1>
+                      <li>
+                        <a
+                          href="https://wa.me/01102226225"
                           style={{ color: "#77dd77" }}
-                        ></i>
-                        01102226225
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="https://wa.me/01112967597"
-                        style={{ color: "#77dd77" }}
-                      >
-                        <i
-                          className="fa-brands fa-whatsapp text-4xl mx-1 cursor-pointer  whats-icon text-success"
+                        >
+                          <i
+                            className="fa-brands fa-whatsapp text-4xl mx-1 cursor-pointer  whats-icon text-success"
+                            style={{ color: "#77dd77" }}
+                          ></i>
+                          01102226225
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="https://wa.me/01112967597"
                           style={{ color: "#77dd77" }}
-                        ></i>
-                        01112967597
-                      </a>
-                    </li>{" "}
-                  </ul>
-                </div>
+                        >
+                          <i
+                            className="fa-brands fa-whatsapp text-4xl mx-1 cursor-pointer  whats-icon text-success"
+                            style={{ color: "#77dd77" }}
+                          ></i>
+                          01112967597
+                        </a>
+                      </li>{" "}
+                    </ul>
+                  </div>
                 </div>
               </div>
               <p className="nn" style={{ color: "black" }}>
@@ -677,134 +677,143 @@ const DisPopup = ({ closePopup }) => {
               data-aos-anchor-placement="fade-right"
             >
               <div dir="rtl" className="h-screen flex flex-col ">
-                <div className="reseat" ref={printRef}>
-                  <div dir="rtl" className=" pt-0">
-                    <div dir="rtl" className="text-center flex justify-center">
-                      <img src={logo} alt="almanara" width={80} />
-                      <p
+                <div ref={printRef}>
+                  <div className="reseat">
+                    <div dir="rtl" className=" pt-0">
+                      <div
                         dir="rtl"
-                        className="text-2xl font-bold inline border-b-4 border-yellow-400 text-center popup-header  "
-                        style={{ color: "black" }}
+                        className="text-center flex justify-center"
                       >
-                        تفاصيل اللأوردر
-                      </p>
-                    </div>
-                    <div
-                      style={{
-                        backgroundColor: "#255266",
-                        width: "100%",
-                        margin: "auto",
-                      }}
-                    >
-                      <div className="doooor">
-                        <p className="dd nn">
-                          الإســم : <span>{name}</span>
+                        <img src={logo} alt="almanara" width={80} />
+                        <p
+                          dir="rtl"
+                          className="text-2xl font-bold inline border-b-4 border-yellow-400 text-center popup-header  "
+                          style={{ color: "black" }}
+                        >
+                          تفاصيل اللأوردر
                         </p>
                       </div>
-                      <div className="doooor">
-                        <p className="nn dd">
-                          رقم الموبايل : <span>{mobile}</span>
-                        </p>
-                        <p className="dd nn">
-                          اليوم : <span>{formatDate(startDate)}</span>
-                        </p>
-                      </div>
-                      <div className="doooor">
-                        <p className="nn dd">
-                          مــن منطقة :{" "}
-                          <span>{fromLocation ? fromLocation : "القاهره"}</span>
-                        </p>
+                      <div
+                        style={{
+                          backgroundColor: "#255266",
+                          width: "100%",
+                          margin: "auto",
+                        }}
+                      >
+                        <div className="doooor">
+                          <p className="dd nn">
+                            الإســم : <span>{name}</span>
+                          </p>
+                        </div>
+                        <div className="doooor">
+                          <p className="nn dd">
+                            رقم الموبايل : <span>{mobile}</span>
+                          </p>
+                          <p className="dd nn">
+                            اليوم : <span>{formatDate(startDate)}</span>
+                          </p>
+                        </div>
+                        <div className="doooor">
+                          <p className="nn dd">
+                            مــن منطقة :{" "}
+                            <span>
+                              {fromLocation ? fromLocation : "القاهره"}
+                            </span>
+                          </p>
 
-                        <p className="nn dd">
-                          إلــي منطقة:{" "}
-                          <span>{toLocation ? toLocation : "القاهره"}</span>
+                          <p className="nn dd">
+                            إلــي منطقة:{" "}
+                            <span>{toLocation ? toLocation : "القاهره"}</span>
+                          </p>
+                        </div>
+                        <div className="doooor">
+                          <p className="nn dd">
+                            من الدور : <span>{firstDr ? firstDr : 0}</span>
+                          </p>
+                          <p className="nn dd">
+                            إلي الدور : <span>{secondDr ? secondDr : 0}</span>
+                          </p>
+                        </div>
+                        <div className="doooor">
+                          <p className="nn dd">
+                            عدد الغرف فك وتركيب :{" "}
+                            <span>{dishCov ? dishCov : 0}</span>
+                          </p>
+                          <p className="nn dd">
+                            عدد التكييفات فك وتركيب :{" "}
+                            <span>{roomsCov ? roomsCov : 0}</span>
+                          </p>
+                        </div>
+                        <div className="doooor">
+                          <p className="nn dd">
+                            التنزيل بالونش :{" "}
+                            <span>{winshDown ? "نعم" : "لا"}</span>
+                          </p>
+                          <p className="nn dd">
+                            التطليع بالونش :{" "}
+                            <span>{winshUp ? "نعم" : "لا"}</span>
+                          </p>
+                        </div>
+                        <p className="nn">
+                          الخصم : <span>15%</span>
                         </p>
+                        <div className="whatsapp">
+                          <ul>
+                            <h1 style={{ color: "#77dd77" }}>
+                              يمكنك التواصل مع المناره علي الواتس اب علي هذه
+                              الأرقام
+                            </h1>
+                            <li>
+                              <a
+                                href="https://wa.me/01102226225"
+                                style={{ color: "#77dd77" }}
+                              >
+                                <i
+                                  className="fa-brands fa-whatsapp text-4xl mx-1 cursor-pointer  whats-icon text-success"
+                                  style={{ color: "#77dd77" }}
+                                ></i>
+                                01102226225
+                              </a>
+                            </li>
+                            <li>
+                              <a
+                                href="https://wa.me/01112967597"
+                                style={{ color: "#77dd77" }}
+                              >
+                                <i
+                                  className="fa-brands fa-whatsapp text-4xl mx-1 cursor-pointer  whats-icon text-success"
+                                  style={{ color: "#77dd77" }}
+                                ></i>
+                                01112967597
+                              </a>
+                            </li>{" "}
+                          </ul>
+                        </div>
                       </div>
-                      <div className="doooor">
-                        <p className="nn dd">
-                          من الدور : <span>{firstDr ? firstDr : 0}</span>
-                        </p>
-                        <p className="nn dd">
-                          إلي الدور : <span>{secondDr ? secondDr : 0}</span>
-                        </p>
-                      </div>
-                      <div className="doooor">
-                        <p className="nn dd">
-                          عدد الغرف فك وتركيب :{" "}
-                          <span>{dishCov ? dishCov : 0}</span>
-                        </p>
-                        <p className="nn dd">
-                          عدد التكييفات فك وتركيب :{" "}
-                          <span>{roomsCov ? roomsCov : 0}</span>
-                        </p>
-                      </div>
-                      <div className="doooor">
-                        <p className="nn dd">
-                          التنزيل بالونش :{" "}
-                          <span>{winshDown ? "نعم" : "لا"}</span>
-                        </p>
-                        <p className="nn dd">
-                          التطليع بالونش : <span>{winshUp ? "نعم" : "لا"}</span>
-                        </p>
-                      </div>
-                      <p className="nn">
-                        الخصم : <span>15%</span>
-                      </p>
-                      <div className="whatsapp">
-                  <ul>
-                    <h1 style={{ color: "#77dd77" }}>
-                      يمكنك التواصل مع المناره علي الواتس اب علي هذه الأرقام
-                    </h1>
-                    <li>
-                      <a
-                        href="https://wa.me/01102226225"
-                        style={{ color: "#77dd77" }}
-                      >
-                        <i
-                          className="fa-brands fa-whatsapp text-4xl mx-1 cursor-pointer  whats-icon text-success"
-                          style={{ color: "#77dd77" }}
-                        ></i>
-                        01102226225
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="https://wa.me/01112967597"
-                        style={{ color: "#77dd77" }}
-                      >
-                        <i
-                          className="fa-brands fa-whatsapp text-4xl mx-1 cursor-pointer  whats-icon text-success"
-                          style={{ color: "#77dd77" }}
-                        ></i>
-                        01112967597
-                      </a>
-                    </li>{" "}
-                  </ul>
-                </div>
                     </div>
+                    <p className="nn" style={{ color: "black" }}>
+                      إجمالي الحساب بعد الخصم :{" "}
+                      <span>
+                        {roundN100(
+                          totalPrice > 2500
+                            ? (totalPrice * 85) / 100
+                            : (totalPrice * 93) / 100
+                        )}{" "}
+                        جنيه
+                      </span>
+                    </p>
+                    <p className="nn" style={{ color: "black" }}>
+                      بدلا من :{" "}
+                      <span className="discount">
+                        {roundN100(
+                          totalPrice < 2500
+                            ? totalPrice + (totalPrice * 7) / 100
+                            : totalPrice
+                        )}
+                        جنيه
+                      </span>
+                    </p>
                   </div>
-                  <p className="nn" style={{ color: "black" }}>
-                    إجمالي الحساب بعد الخصم :{" "}
-                    <span>
-                      {roundN100(
-                        totalPrice > 2500
-                          ? (totalPrice * 85) / 100
-                          : (totalPrice * 93) / 100
-                      )}{" "}
-                      جنيه
-                    </span>
-                  </p>
-                  <p className="nn" style={{ color: "black" }}>
-                    بدلا من :{" "}
-                    <span className="discount">
-                      {roundN100(
-                        totalPrice < 2500
-                          ? totalPrice + (totalPrice * 7) / 100
-                          : totalPrice
-                      )}
-                      جنيه
-                    </span>
-                  </p>
                 </div>
                 <div className="order-btns">
                   <button
@@ -822,7 +831,6 @@ const DisPopup = ({ closePopup }) => {
                     تعديل الأوردر
                   </button>
                 </div>
-             
               </div>
             </div>
           </div>
