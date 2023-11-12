@@ -196,6 +196,7 @@ const DisPopup = ({ closePopup }) => {
                     margin: "auto",
                   }}
                 >
+                  <h1 className="mnarah">شركة المناره لنقل الأثاث </h1>
                   <div className="doooor">
                     <p className="dd nn">
                       الإســم : <span>{localorders[0].name}</span>
@@ -706,6 +707,7 @@ const DisPopup = ({ closePopup }) => {
                           margin: "auto",
                         }}
                       >
+                        <h1 className="mnarah">شركة المناره لنقل الأثاث </h1>
                         <div className="doooor">
                           <p className="dd nn">
                             الإســم : <span>{name}</span>

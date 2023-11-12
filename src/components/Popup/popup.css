@@ -64,7 +64,11 @@ input {
   margin: 15px 0 15px 15px !important;
   font-weight: 900;
 }
-
+.mnarah{
+  font-size: 15px;
+  text-align: center;
+  font-weight: 900;
+}
 .r-cont h5 {
   background-color: rgba(0, 0, 0, 0.452);
   color: white;
@@ -88,6 +92,7 @@ input {
   .popup-header {
     font-weight: 900;
   }
+  
   .recipe-cont h5 {
     font-size: 7px;
   }
