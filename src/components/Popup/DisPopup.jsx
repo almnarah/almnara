@@ -269,13 +269,16 @@ const DisPopup = ({ closePopup }) => {
                   <p className="nn">
                     الخصم : <span>15%</span>
                   </p>
-                  <div className="whatsapp">
-                    <ul>
-                      <h1 style={{ color: "#77dd77" }}>
+                  <div className="whatsapp text-right mr-2 mt-3">
+                    <ul >
+                      <hr style={{width:"70%"}}></hr>
+                      <h1 style={{ color: "#fff" }} className="text-success mt-1">
                         يمكنك التواصل مع المناره علي الواتس اب علي هذه الأرقام
-                      </h1>
-                      <li>
-                        <a
+                            </h1>
+                            <div className="doooor">
+
+                      <li className="nn">
+                        <a className="text-success"
                           href="https://wa.me/01102226225"
                           style={{ color: "#77dd77" }}
                         >
@@ -286,8 +289,8 @@ const DisPopup = ({ closePopup }) => {
                           01102226225
                         </a>
                       </li>
-                      <li>
-                        <a
+                      <li className="nn">
+                        <a className="text-success"
                           href="https://wa.me/01112967597"
                           style={{ color: "#77dd77" }}
                         >
@@ -297,7 +300,8 @@ const DisPopup = ({ closePopup }) => {
                           ></i>
                           01112967597
                         </a>
-                      </li>{" "}
+                      </li>
+                            </div>
                     </ul>
                   </div>
                 </div>
@@ -757,36 +761,44 @@ const DisPopup = ({ closePopup }) => {
                         <p className="nn">
                           الخصم : <span>15%</span>
                         </p>
-                        <div className="whatsapp">
+                        <div className="whatsapp text-right mr-2 mt-3">
                           <ul>
-                            <h1 style={{ color: "#77dd77" }}>
+                            <hr style={{ width: "70%" }}></hr>
+                            <h1
+                              style={{ color: "#fff" }}
+                              className="text-success mt-1"
+                            >
                               يمكنك التواصل مع المناره علي الواتس اب علي هذه
                               الأرقام
                             </h1>
-                            <li>
-                              <a
-                                href="https://wa.me/01102226225"
-                                style={{ color: "#77dd77" }}
-                              >
-                                <i
-                                  className="fa-brands fa-whatsapp text-4xl mx-1 cursor-pointer  whats-icon text-success"
+                            <div className="doooor">
+                              <li className="nn">
+                                <a
+                                  className="text-success"
+                                  href="https://wa.me/01102226225"
                                   style={{ color: "#77dd77" }}
-                                ></i>
-                                01102226225
-                              </a>
-                            </li>
-                            <li>
-                              <a
-                                href="https://wa.me/01112967597"
-                                style={{ color: "#77dd77" }}
-                              >
-                                <i
-                                  className="fa-brands fa-whatsapp text-4xl mx-1 cursor-pointer  whats-icon text-success"
+                                >
+                                  <i
+                                    className="fa-brands fa-whatsapp text-4xl mx-1 cursor-pointer  whats-icon text-success"
+                                    style={{ color: "#77dd77" }}
+                                  ></i>
+                                  01102226225
+                                </a>
+                              </li>
+                              <li className="nn">
+                                <a
+                                  className="text-success"
+                                  href="https://wa.me/01112967597"
                                   style={{ color: "#77dd77" }}
-                                ></i>
-                                01112967597
-                              </a>
-                            </li>{" "}
+                                >
+                                  <i
+                                    className="fa-brands fa-whatsapp text-4xl mx-1 cursor-pointer  whats-icon text-success"
+                                    style={{ color: "#77dd77" }}
+                                  ></i>
+                                  01112967597
+                                </a>
+                              </li>
+                            </div>
                           </ul>
                         </div>
                       </div>

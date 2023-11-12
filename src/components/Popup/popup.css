@@ -94,6 +94,20 @@ input {
   .recipe-cont h5 span {
     background-color: rgba(0, 0, 0, 0.452);
   }
+  .nn {
+    font-size: 12px !important;
+    font-weight: 600;
+  }
+  .nn span {
+    font-size: 12px !important;
+    font-weight: 600;
+    color: rgb(242, 66, 7);
+  }
+ .text-success{
+    font-size: 11px !important;
+    margin-top: 0  !important;
+    
+  }
 }
 .whats-icon {
   font-size: 25px;
